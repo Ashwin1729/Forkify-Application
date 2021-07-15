@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "recipe application",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Ashwin Dhuriya",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-nightly.727",
+    "parcel": "^2.0.0-nightly.725",
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "core-js": "^3.15.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
